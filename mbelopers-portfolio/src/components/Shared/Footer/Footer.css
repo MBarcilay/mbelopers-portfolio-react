@@ -1,0 +1,50 @@
+@import '../../../../style.css';
+
+.footer-div {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    top: 0px;
+    height: 100px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #1a69aa;
+    border-top: #000 solid 1px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.socialMedia-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.social-div {
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: max-content;
+    padding: 15px;
+}
+
+.social-div a {
+    text-decoration: none;
+}
+
+.social-div img {
+
+}
+
+.copyright-section {
+
+}
