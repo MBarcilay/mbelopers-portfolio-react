@@ -64,11 +64,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    min-width: 100px;
+    min-width: 150px;
     min-height: max-content;
     padding: 15px;
     border: #000 solid 1px;
-    border-radius: 50px;
+    border-radius: 100px;
     color: #fff;
     background-color: #041f23;
 }

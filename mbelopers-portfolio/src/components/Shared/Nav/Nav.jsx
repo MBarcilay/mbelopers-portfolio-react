@@ -15,11 +15,11 @@ const Nav = () => {
 
             <section className='content-menu-section'>
                 <ul className='menu-ul'>
-                    <li className='menu-item'>Home</li>
-                    <li className='menu-item'>About</li>
-                    <li className='menu-item'>Knowledge</li>
-                    <li className='menu-item'>Projects</li>
-                    <li className='menu-item'>Contact</li>
+                    <li className='menu-item'>Inicio</li>
+                    <li className='menu-item'>Sobre mí</li>
+                    <li className='menu-item'>Conocimientos</li>
+                    <li className='menu-item'>Proyectos</li>
+                    <li className='menu-item'>Contacto</li>
                 </ul>
             </section>
 
