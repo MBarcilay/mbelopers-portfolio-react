@@ -1,0 +1,67 @@
+@import '../../../style.css';
+
+.home-content {
+    height: 100%;
+    width: 100%;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 200px;
+    height: 200px;
+    animation: emphasis 3s infinite;
+}
+
+@keyframes emphasis {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.resume.section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbelopers-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    animation: shinningTitle 3s infinite;
+}
+
+@keyframes shinningTitle {
+    0% {
+        color: #000;
+        text-shadow: #041f23 2px 2px 2px;
+    }
+    50% {
+        color: #1a69aa;
+        text-shadow: #006dff 2px 2px 2px;
+    }
+    100% {
+        color: #000;
+        text-shadow: #041f23 2px 2px 2px;
+    }
+}
+
+.info-p {
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
