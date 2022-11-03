@@ -1,0 +1,40 @@
+@import '../../../style.css';
+
+.about-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.portrait-section {
+    padding: 0px;
+    margin: 20px;
+    max-height: fit-content;
+    max-width: fit-content;
+    text-align: center;
+    align-items: center;
+    border: #000 solid 5px;
+}
+
+.portrait-section img {
+    margin: 0px;
+}
+
+.about-info-section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info-p {
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}

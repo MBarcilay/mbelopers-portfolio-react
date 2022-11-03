@@ -59,6 +59,14 @@
     flex: 1;
 }
 
+.menu-ul a{
+    text-decoration: none;
+}
+
+.menu-ul a:visited{
+    color: #fff;
+}
+
 .menu-item {
     display: flex;
     text-align: center;
@@ -81,3 +89,4 @@
     cursor: pointer;
     box-shadow: #000 4px 4px 4px;
 }
+
