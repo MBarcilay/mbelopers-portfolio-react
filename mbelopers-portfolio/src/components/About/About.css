@@ -18,11 +18,11 @@
     max-width: fit-content;
     text-align: center;
     align-items: center;
-    border: #000 solid 5px;
 }
 
 .portrait-section img {
     margin: 0px;
+    border-radius: 50px;
 }
 
 .about-info-section {
