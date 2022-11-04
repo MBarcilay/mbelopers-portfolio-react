@@ -57,6 +57,21 @@
     align-items: center;
     justify-content: space-evenly;
     flex: 1;
+    min-width: 150px;
+    min-height: max-content;
+    border-radius: 100px;
+}
+
+.menu-ul-active {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    min-width: 150px;
+    min-height: max-content;
+    border-radius: 100px;
+    background-color: #1a69aa;
 }
 
 .menu-ul a{

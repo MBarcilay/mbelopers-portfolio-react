@@ -1,42 +1,69 @@
 @import '../../../style.css';
 
 .knowledge-content {
-
+    height: 100%;
+    width: 100%;
 }
 
 .knowledge-info-section {
-
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .knowledge-info-p {
-
+    padding: 10px;
+    text-align: center;
 }
 
 .QR-section {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .QR-section img {
-
+    width: 200px;
+    height: 200px;
 }
 
 .technologies-section {
-
+    padding: 20px;
+    display: flex;
+    overflow-x: scroll;
 }
 
 .technologies-item {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
 
+.technologies-item:hover {
+    transform: scale(0.9);
+    box-shadow: #000 inset 2px 2px 3px 3px;
+    cursor: pointer;
 }
 
 .technologies-item img {
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
 }
 
 .technology-name {
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
-
 
 .cv-section {
     
