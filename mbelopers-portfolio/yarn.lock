@@ -240,6 +240,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@emailjs/browser@^3.9.0":
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.9.0.tgz#e2f85afada83c5b532e744250885edb7006b97f0"
+  integrity sha512-NyWRmPUS0gg2Z+ygLMNSBcHNwlPFL0cEs6u62AwxNO5EjlYQiWHU///LYOfPM54ZZOoHJ2gNVUU+VnnMrKXraA==
+
 "@esbuild/android-arm@0.15.13":
   version "0.15.13"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.13.tgz#ce11237a13ee76d5eae3908e47ba4ddd380af86a"
@@ -398,6 +403,11 @@ electron-to-chromium@^1.4.251:
   version "1.4.284"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
   integrity sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==
+
+email-js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/email-js/-/email-js-2.0.2.tgz#c6682e73fae9df700558d413d9e3b7a9fdb5bab0"
+  integrity sha512-ElfOy+BMZbQuivo8Qp+A2Gz6N06ZUHEk+q67O0zgTRU5d+n2rvbfX0w2jyo7B/F+zPJAXq/J1SHaG9ghbhWAPQ==
 
 esbuild-android-64@0.15.13:
   version "0.15.13"

@@ -57,6 +57,9 @@ const Footer = () => {
                 <p>
                     &copy; 2022 MBeloper
                 </p>
+                <p>
+                    Por ahora no está disponible para dispositivos móviles.
+                </p>
             </section>
 
         </footer>

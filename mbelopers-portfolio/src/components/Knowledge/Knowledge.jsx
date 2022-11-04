@@ -1,13 +1,20 @@
 import React from 'react'
 
 import QR_Code from '../../assets/Certifications_QR.png'
+import HTML_Logo from '../../assets/html.png'
+import CSS_Logo from '../../assets/css.png'
+import ReactLogo from '../../assets/react.png'
+import JavaScriptLogo from '../../assets/javascript.png'
+import NodeJS_Logo from '../../assets/nodejs.png'
+import FlutterLogo from '../../assets/flutter.png'
+import CSharpLogo from '../../assets/csharp.png'
+import PythonLogo from '../../assets/python.png'
+import MySQL_Logo from '../../assets/mysql.png'
+import MongoDB_Logo from '../../assets/mongodb.png'
+import PandasLogo from '../../assets/pandas.png'
 import GithubLogo from '../../assets/github.png'
-import HTML_Logo from '../../assets/html-5.png'
-import CSS_Logo from '../../assets/css-3.png'
-import ReactLogo from '../../assets/React-icon.svg.png'
-import JavaScriptLogo from '../../assets/javascript-logo.png'
-import NodeJS_Logo from '../../assets/nodejs-logo.png'
-import FlutterLogo from '../../assets/flutter-logo.png'
+
+import CV_PDF from '../../docs/Curriculum Vitae S.pdf'
 
 import './Knowledge.css'
 
@@ -37,7 +44,6 @@ const Knowledge = () => {
         </section>
 
         <section className='technologies-section'>
-
 
           <div className='technologies-item'>
 
@@ -97,7 +103,7 @@ const Knowledge = () => {
 
             <h3 className='technology-name'>C#</h3>
 
-            <img src="" alt="C# Logo" />
+            <img src={CSharpLogo} alt="C# Logo" />
 
           </div>
 
@@ -106,7 +112,7 @@ const Knowledge = () => {
 
             <h3 className='technology-name'>Python</h3>
 
-            <img src="" alt="Python Logo"/>
+            <img src={PythonLogo} alt="Python Logo"/>
 
           </div>
 
@@ -115,16 +121,16 @@ const Knowledge = () => {
 
             <h3 className='technology-name'>MySQL</h3>
 
-            <img src="" alt="MySQL Logo" />
+            <img src={MySQL_Logo} alt="MySQL Logo" />
 
           </div>
 
 
           <div className='technologies-item'>
 
-            <h3 className='technology-name'>Mongo DB</h3>
+            <h3 className='technology-name'>MongoDB</h3>
 
-            <img src="" alt="Mongo DB Logo" />
+            <img src={MongoDB_Logo} alt="MongoDB Logo" />
 
           </div>
 
@@ -133,7 +139,7 @@ const Knowledge = () => {
 
             <h3 className='technology-name'>Pandas</h3>
 
-            <img src="" alt="Pandas Logo" />
+            <img src={PandasLogo} alt="Pandas Logo" />
 
           </div>
 
@@ -148,9 +154,15 @@ const Knowledge = () => {
         </section>
 
         <section className='cv-section'>
+          
           <p className='cv-info-p'>
             Aquí puedes revisar mi CV.
           </p>
+
+          <div className='pdf-visualizer-div'>
+            <object id='CV-pdf' data={CV_PDF} type="application/pdf"></object>
+          </div>
+
         </section>
 
       </main>
