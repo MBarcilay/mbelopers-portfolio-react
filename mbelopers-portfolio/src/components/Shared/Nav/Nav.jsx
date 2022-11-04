@@ -23,23 +23,23 @@ const Nav = () => {
 
             <section className='content-menu-section'>
                 <ul className='menu-ul'>
-                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="/">
+                    <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="/">
                         <li className='menu-item'>Home</li>
                     </NavLink>
                     
-                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="about">
+                    <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="about">
                         <li className='menu-item'>Sobre mí</li>
                     </NavLink>
                     
-                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="knowledge">
+                    <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="knowledge">
                     <li className='menu-item'>Conocimientos</li>
                     </NavLink>
 
-                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="projects">
+                    {/* <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="projects">
                         <li className='menu-item'>Proyectos</li>
-                    </NavLink>
+                    </NavLink> */}
                     
-                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="contact">
+                    <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="contact">
                         <li className='menu-item'>Contacto</li>
                     </NavLink>
                 </ul>
