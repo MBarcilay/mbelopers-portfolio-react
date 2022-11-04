@@ -30,6 +30,12 @@ const Knowledge = () => {
           <img src={QR_Code} alt="Código QR de mi portafolio" />
         </section>
 
+        <section className='technologies-info-section'>
+          <p className='technologies-info-p'>
+              Estas son algunas de las tecnologías con las que tengo experiencia trabaajando.
+          </p>
+        </section>
+
         <section className='technologies-section'>
 
           <div className='technologies-item'>
@@ -141,7 +147,9 @@ const Knowledge = () => {
         </section>
 
         <section className='cv-section'>
-
+          <p className='cv-info-p'>
+            Aquí puedes revisar mi CV.
+          </p>
         </section>
 
       </main>

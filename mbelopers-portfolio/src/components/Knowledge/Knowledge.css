@@ -29,6 +29,18 @@
     height: 200px;
 }
 
+.technologies-info-section {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies-info-p {
+    padding: 10px;
+    text-align: center;
+}
+
 .technologies-section {
     padding: 20px;
     display: flex;
@@ -43,6 +55,8 @@
     width: fit-content;
     margin: 10px;
     padding: 10px;
+    border: #000 solid 1px;
+    border-radius: 10px;
 }
 
 .technologies-item:hover {
@@ -66,5 +80,13 @@
 }
 
 .cv-section {
-    
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-info-p {
+    padding: 10px;
+    text-align: center;
 }

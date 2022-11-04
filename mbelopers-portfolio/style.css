@@ -1,14 +1,5 @@
 @import './normalize.css';
 
-:root {
-    --primary-color: #1a69aa;
-    --secondary-color: #041f23;
-    --tertiary-color: #006dff;
-    --quaternary-color: #000;
-    --quinary-color: #fff;
-    --background-primary-color: rgb(77, 77, 77);
-}
-
 html {
     height: 100%;
     width: 100%;
