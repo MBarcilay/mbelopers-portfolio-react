@@ -82,6 +82,14 @@
     color: #fff;
 }
 
+.menu-ul a{
+    text-decoration: none;
+}
+
+.menu-ul a:visited{
+    color: #fff;
+}
+
 .menu-item {
     display: flex;
     text-align: center;

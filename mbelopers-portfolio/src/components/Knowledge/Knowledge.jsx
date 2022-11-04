@@ -38,6 +38,7 @@ const Knowledge = () => {
 
         <section className='technologies-section'>
 
+
           <div className='technologies-item'>
 
             <h3 className='technology-name'>HTML 5</h3>
