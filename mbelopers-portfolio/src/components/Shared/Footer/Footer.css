@@ -66,23 +66,5 @@
 }
 
 .copyright-section {
-    animation: shining 2s infinite;
-}
-
-@keyframes shining {
-    0% {
-        color:#000
-    }
-    25% {
-        color: rgb(210, 210, 210);
-    }
-    50% {
-        color: #fff;
-    }
-    75% {
-        color: rgb(210, 210, 210);
-    }
-    100% {
-        color:#000;
-    }
+    color: #fff;
 }

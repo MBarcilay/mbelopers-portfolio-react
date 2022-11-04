@@ -12,6 +12,7 @@ import About from './components/About/About'
 import Knowledge from './components/Knowledge/Knowledge'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
+import NotFound from './components/NotFound/NotFound'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="knowledge" element={<Knowledge />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         <Footer />
       </Router>

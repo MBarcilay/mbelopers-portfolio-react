@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 
 import './Nav.css'
 
@@ -16,32 +16,32 @@ const Nav = () => {
         <nav className='menu'>
 
             <section className='logo-menu-section'>
-                <Link className='nav-link' to="/">
+                <NavLink className='nav-link' to="/">
                     <img src={MBelopersLogo} alt="MBeloper's Logo" />
-                </Link>
+                </NavLink>
             </section>
 
             <section className='content-menu-section'>
                 <ul className='menu-ul'>
-                    <Link className='nav-link' to="/">
+                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="/">
                         <li className='menu-item'>Home</li>
-                    </Link>
+                    </NavLink>
                     
-                    <Link className='nav-link' to="about">
+                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="about">
                         <li className='menu-item'>Sobre mí</li>
-                    </Link>
+                    </NavLink>
                     
-                    <Link className='nav-link' to="knowledge">
+                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="knowledge">
                     <li className='menu-item'>Conocimientos</li>
-                    </Link>
+                    </NavLink>
 
-                    <Link className='nav-link' to="projects">
+                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="projects">
                         <li className='menu-item'>Proyectos</li>
-                    </Link>
+                    </NavLink>
                     
-                    <Link className='nav-link' to="contact">
+                    <NavLink activeClassName="active" className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="contact">
                         <li className='menu-item'>Contacto</li>
-                    </Link>
+                    </NavLink>
                 </ul>
             </section>
 
