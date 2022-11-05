@@ -12,6 +12,7 @@ const Contact = () => {
     emailjs.sendForm('service_j031b26', 'template_zgql86v', e.target, 'NQAC-y-w4hI58FEPO')
       .then((response) => 
           console.log(response))
+          e.target.reset()
       .catch((error) => 
           console.log(error))
       };
@@ -21,21 +22,21 @@ const Contact = () => {
       <main className='contact-content'>
         <fieldset>
           <legend>Comunícate con MBeloper</legend>
-          <form onSubmit={sendEmail}>
+          <form id='contact-form' onSubmit={sendEmail}>
 
             <div className='form-div'>
               <label htmlFor="name">Nombre</label>
-              <input type="text" name="name" id="name" placeholder='Nombre' autoFocus='True'/>
+              <input type="text" name="name" id="name" placeholder='Nombre' autoFocus='True' required/>
             </div>
 
             <div className='form-div'>
               <label htmlFor="email">Correo electrónico</label>
-              <input type="email" name="email" id="email" placeholder='Correo electrónico' />
+              <input type="email" name="email" id="email" placeholder='Correo electrónico' required/>
             </div>
 
             <div className='form-div'>
               <label htmlFor="message">Mensaje</label>
-              <textarea name="message" id="message" cols="30" rows="10" placeholder='Mensaje'></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder='Mensaje' required></textarea>
             </div>
 
             <div className='btn-div'>

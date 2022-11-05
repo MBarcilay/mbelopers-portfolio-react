@@ -13,6 +13,13 @@
     padding: 10px 20px;
 }
 
+.contact-content fieldset legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .form-div {
     display: flex;
     flex-direction: column;
