@@ -21,6 +21,8 @@
 }
 
 .portrait-section img {
+    width: 212px;
+    height: 212px;
     margin: 0px;
     border-radius: 50px;
 }

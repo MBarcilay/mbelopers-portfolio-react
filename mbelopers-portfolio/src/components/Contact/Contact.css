@@ -1,1 +1,98 @@
 @import '../../../style.css';
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+.contact-content fieldset {
+    padding: 10px 20px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-div label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.form-div input {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.form-div input:focus {
+    outline: none;
+    background-color: #041f23;
+    color: #fff;
+    box-shadow: #1a69aa 4px 4px 4px;
+    transform: scale(1.05);
+}
+
+.form-div textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.form-div textarea:focus {
+    outline: none;
+    background-color: #041f23;
+    color: #fff;
+    box-shadow: #1a69aa 4px 4px 4px;
+    transform: scale(1.05);
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.btn-div button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    min-height: max-content;
+    padding: 15px;
+    border: #000 solid 1px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #041f23;
+}
+
+.btn-div button:hover {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #1a69aa;
+    cursor: pointer;
+    box-shadow: #000 4px 4px 4px;
+}
