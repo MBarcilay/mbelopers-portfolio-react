@@ -7,7 +7,7 @@
     top: 0px;
     height: 100px;
     margin-bottom: 30px;
-    background-color: #fff;
+    background-color: #4e4e4e;
     border-bottom: #000 solid 1px;
 }
 
@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex: 1;
+    width: 100%;
 }
 
 .logo-menu-section {
@@ -57,7 +58,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex: 1;
-    width: 100%;
     min-height: max-content;
     border-radius: 100px;
 }
@@ -68,10 +68,12 @@
     align-items: center;
     justify-content: space-evenly;
     flex: 1;
-    min-width: 150px;
-    min-height: max-content;
+    min-width: 80px;
+    min-height: fit-content;
     border-radius: 100px;
     background-color: #1a69aa;
+    box-shadow: #000 1px 1px 10px;
+    border: 1px solid #eee;
 }
 
 .menu-ul a{
@@ -88,12 +90,13 @@
     align-items: center;
     justify-content: center;
     width: 150px;
-    min-height: max-content;
+    height: fit-content;
     padding: 15px;
     border: #000 solid 1px;
     border-radius: 100px;
     color: #fff;
     background-color: #041f23;
+    border: 1px solid #eee;
 }
 
 .menu-item:hover {
