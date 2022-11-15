@@ -34,6 +34,7 @@
 
 .logo-menu-section img:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 @keyframes rotate {

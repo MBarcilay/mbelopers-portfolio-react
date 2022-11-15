@@ -1,9 +1,18 @@
 @import './normalize.css';
 
+* {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
 html {
     height: 100%;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #9c9c9c;
+    color: #fff;
 }
 
 body {
