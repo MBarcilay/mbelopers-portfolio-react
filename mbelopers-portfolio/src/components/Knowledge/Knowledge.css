@@ -62,7 +62,6 @@
 .technologies-item:hover {
     transform: scale(0.9);
     box-shadow: #000 inset 2px 2px 3px 3px;
-    cursor: pointer;
 }
 
 .technologies-item img {

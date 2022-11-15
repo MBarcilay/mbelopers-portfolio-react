@@ -13,8 +13,9 @@ const Contact = () => {
       .then((response) => 
           console.log(response))
           e.target.reset()
-      .catch((error) => 
+      .catch((error) =>
           console.log(error))
+          alert('Error al enviar el mensaje, por favor intenta de nuevo.')
       };
 
   return (
