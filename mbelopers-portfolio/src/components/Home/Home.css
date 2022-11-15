@@ -35,6 +35,15 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+#marca {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
 }
 
 .mbelopers-title {
@@ -42,7 +51,23 @@
     font-size: 50px;
     text-align: center;
     margin: 20px;
-    animation: shinningTitle 3s infinite;
+    width: 9ch;
+    border-right: #006dff solid 3px;
+    animation: typing 1s steps(8), shinningTitle 3s infinite, blink 1s infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-right-color: transparent;
+    }
 }
 
 @keyframes shinningTitle {
