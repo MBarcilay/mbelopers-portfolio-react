@@ -15,7 +15,10 @@ const Home = () => {
             </section>
 
             <section className='resume-section'>
-                <h1 className='mbelopers-title'>MBeloper</h1>
+                <div id='marca'>
+                    <h1 className='mbelopers-title'>MBeloper</h1>
+                </div>
+
                 <p className='info-p'>
                     Hola, mi nombre es Mario Barcilay, soy un desarrollador web mexicano y creador de contenido digital, en busca de seguir aprendiendo.
                     <br />

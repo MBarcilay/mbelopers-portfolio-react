@@ -8,6 +8,11 @@
     background-color: #fff;
 }
 
+.notfound-div img {
+    width: 200px;
+    height: 200px;
+}
+
 .notfound-div h1 {
     font-size: 5rem;
     font-weight: 700;
