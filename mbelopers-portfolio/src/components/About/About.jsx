@@ -16,13 +16,13 @@ const About = () => {
 
         <section className='about-info-section'>
           <p className='about-info-p'>
-            Hola, mi nombre es Mario Barcilay Jiménez Acevedo, soy un desarrollador de software mexicano, dedicado principalmente al <b>desarrollo web</b>, además de la creación de contenido educativo digital acerca de programación.
+            Hola, mi nombre es Mario Barcilay Jiménez Acevedo, soy un desarrollador de software mexicano, dedicado principalmente al <b>desarrollo web</b>, además de la <b>creación de contenido educativo digital acerca de programación.</b>
             <br />
             <br />
             Soy una persona entusiasta con habilidad de liderazgo con hambre de conocimiento y toda la disposición para aprender cosas nuevas.
             <br />
             <br />
-            Tengo un título de <i>Técnico Superior Universitario</i> en <b>Desarrollo de SOftware Multiplataforma</b> y otro en curso en una <i>Ingeniería</i> en <b>Desarrollo y Gestión de Software</b>.
+            Tengo un título de <i>Técnico Superior Universitario</i> en <b>Desarrollo de Software Multiplataforma</b> y otro en curso en una <i>Ingeniería</i> en <b>Desarrollo y Gestión de Software</b>.
             <br />
             <br />
             Además, soy consumidor y creador de obras artísticas como dibujo, pintura y escultura.

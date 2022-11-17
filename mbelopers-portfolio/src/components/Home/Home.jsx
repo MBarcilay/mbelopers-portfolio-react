@@ -23,7 +23,7 @@ const Home = () => {
                     Hola, mi nombre es Mario Barcilay, soy un desarrollador web mexicano y creador de contenido digital, en busca de seguir aprendiendo.
                     <br />
                     <br />
-                    Aquí podrás encontrar información sobre mi, mis proyectos y mis conocimientos, así como contactar conmigo.
+                    Aquí podrás encontrar información sobre mi y mis conocimientos, así como contactar conmigo.
                 </p>
             </section>
 

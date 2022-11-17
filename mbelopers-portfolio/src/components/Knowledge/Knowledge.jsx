@@ -26,10 +26,10 @@ const Knowledge = () => {
 
         <section className='knowledge-info-section'>
           <p className='knowledge-info-p'>
-            Poseo varias <b>certiificaciones</b> en tecnologías de desarrollo web, de escritorio y móvil, aunque mi especialidad es el <b>desarrollo web</b>.
+            Poseo habilidades en tecnologías de desarrollo web, de escritorio y móvil, aunque mi especialidad es el <b>desarrollo web</b>.
             <br />
             <br />
-            Además, tengo distintas certificaciones en tecnologías del área, estas las puedes revisar escaneando el siguiente <b>código QR</b>.
+            Además, tengo distintas <b>certificaciones</b> en tecnologías del área, estas las puedes revisar escaneando el siguiente <b>código QR</b>.
           </p>
         </section>
 
@@ -39,7 +39,7 @@ const Knowledge = () => {
 
         <section className='technologies-info-section'>
           <p className='technologies-info-p'>
-              Estas son algunas de las tecnologías con las que tengo experiencia trabaajando.
+              Estas son algunas de las tecnologías con las que tengo experiencia trabajando.
           </p>
         </section>
 

@@ -24,7 +24,7 @@ const Nav = () => {
             <section className='content-menu-section'>
                 <ul className='menu-ul'>
                     <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="/">
-                        <li className='menu-item'>Home</li>
+                        <li className='menu-item'>Inicio</li>
                     </NavLink>
                     
                     <NavLink className={({isActive}) => (isActive ? "menu-ul-active": "menu-ul")} to="about">

@@ -1,3 +1,5 @@
+@import '../../../style.css';
+
 .notfound-div {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,6 @@
     align-items: center;
     height: 80vh;
     width: 100%;
-    background-color: #fff;
 }
 
 .notfound-div img {
